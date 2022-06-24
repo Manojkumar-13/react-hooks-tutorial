@@ -1,0 +1,66 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size: 16px;
+}
+body{
+  background-color: antiquewhite;
+}
+.container{
+  margin: 10rem auto;
+  
+}
+h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+.item{
+  margin: 2rem 5rem;
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 2px solid black;
+  
+}
+h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.btn{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  transform: scale(1.05);
+}
+.btn-delete{
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  color: blue;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-delete:hover{
+  transform: scale(1.5);
+}
+section{
+  margin: 2rem auto;
+  width: 90%;
+  text-align: center;
+}
+h1{
+  margin: auto;
+  text-align: center;
+}
