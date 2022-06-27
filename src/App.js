@@ -1,6 +1,6 @@
-
+import React, {useState,useEffect} from 'react';
 import './App.css';
-import Session from './sessions/useState/UseStateCounter';
+import Session from './sessions/useEffects/UseEffectFetch';
 
   const App = () => {
   return (
