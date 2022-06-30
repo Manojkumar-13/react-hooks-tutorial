@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import './App.css';
-import Session from './sessions/useEffects/UseEffectFetch';
+import Session from './sessions/conditionalRendering/ShortCircuting';
 
   const App = () => {
   return (

@@ -100,3 +100,21 @@ p{
   font-size: 1.2rem;
   font-weight: 600;
 }
+form{
+  padding: 1rem;
+  margin: 2rem auto;
+  background-color: white;
+  text-align: center;
+}
+.form-control{
+  padding: 2rem;
+}
+input{
+  padding: 0.5rem;
+  width: 50%;
+  background-color: hsl(0, 0%, 70%);
+  border: none;
+}
+label{
+  padding: 1rem;
+}
