@@ -8,7 +8,6 @@ const ShortCircuting = () => {
     <div className="item">
       <h2>Short Circuting</h2>
       <h3>{text || 'Manojkumar'}</h3>
-      <h3>{text && 'Developer'</h3>
     </div>
     </>
   )

@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 
 const FormErrorExample = () => {
   const [username,setUserName] = useState('');
@@ -7,10 +7,15 @@ const FormErrorExample = () => {
   }
   return (
     <>
-    <form className='form'>
+    <form className='form'
+          onSubmit={submitHandler}>
       <div className="form-control">
-        <label htmlFor="'user-name">Username:</label>
-        <input type="text" id='username' value={username} onChange = {() =>setUserName('Manojkumar')} />
+        <label htmlFor="'user-name">Username: </label>
+        <input 
+        type="text" 
+        id='username' 
+        value={username} 
+        onChange = {() =>setUserName('')} />
       </div>
       <button type='submit'>Submit</button>
     </form>
