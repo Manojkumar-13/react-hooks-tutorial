@@ -1,7 +1,6 @@
-import React, {useState,useEffect} from 'react';
+import React from 'react';
 import './App.css';
-import Session from './sessions/useRef/UseRef';
-
+import Session from './sessions/useReducer';
   const App = () => {
   return (
     <div className='container'>
